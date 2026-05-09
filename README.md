@@ -17,4 +17,5 @@ TrustPreU es un protocolo de confianza que usa Stellar para:
 - **Frontend:** React + TypeScript + Tailwind CSS
 
 ### ⚡ MVP Operativo
-[PEGA AQUÍ EL LINK DE TU DEMO DE BOLT.NEW]
+https://trustpreu-wallet-pay-xi4n.bolt.host
+
