@@ -9,7 +9,7 @@ const kit = new StellarWalletsKit({
 });
 
 const server = new Server("https://stellar.org");
-const PROFESOR_ADDRESS = "GAX...PON_UNA_DIRECCION_DE_PRUEBA"; // Aquí iría la wallet del profe
+const PROFESOR_ADDRESS = "GBCOY52B3KTLUQ5V6T5MLFQSBJQATAU3A2L2N5INFKA7UQRHR5DKQ3ZP"; // Aquí iría la wallet del profe
 
 export default function TrustPreU_App() {
   const [address, setAddress] = useState<string>("");
@@ -63,7 +63,7 @@ export default function TrustPreU_App() {
     <div style={containerStyle}>
       <header style={headerStyle}>
         <h1>Clases de Confianza 🎓</h1>
-        <p>Seguridad y Descuentos para Estudiantes Pre-U en Perú</p>
+        <p>Seguridad y Descuentos para Estudiantes Pre-Universitarios en Perú</p>
       </header>
 
       {!address ? (
