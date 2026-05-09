@@ -8,7 +8,7 @@ const kit = new StellarWalletsKit({
   selectedWalletId: ALLOWED_WALLETS.FREIGHTER,
 });
 
-const server = new Server("https://stellar.org");
+const server = new Server("https://horizon-testnet.stellar.org");
 const PROFESOR_ADDRESS = "GBCOY52B3KTLUQ5V6T5MLFQSBJQATAU3A2L2N5INFKA7UQRHR5DKQ3ZP"; // Aquí iría la wallet del profe
 
 export default function TrustPreU_App() {
